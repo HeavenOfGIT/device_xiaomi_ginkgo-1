@@ -14,9 +14,6 @@ $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 # Gapps
 $(call inherit-product-if-exists, vendor/google/gms/config.mk)
 
-# Pixel components
-$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
